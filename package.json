@@ -1,7 +1,7 @@
 {
   "private": true,
   "engines": {
-    "node": ">=4"
+    "node": "8.10.0"
   },
   "devDependencies": {
     "babel-core": "^6.4.0",
@@ -42,6 +42,6 @@
     }
   },
   "scripts": {
-    "start": "npm install"
+    "start": "node server.js"
   }
 }
