@@ -1,2 +1,2 @@
 
-web: node gulpfile.js gulp build
+web: gulp build
