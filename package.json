@@ -42,7 +42,6 @@
     }
   },
   "scripts": {
-    "start": "npm install",
-    "postinstall": "gulp build"
+    "start": "npm install"
   }
 }
