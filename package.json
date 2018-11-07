@@ -40,8 +40,5 @@
         "single"
       ]
     }
-  },
-  "scripts": {
-    "start": "node server.js"
   }
 }
