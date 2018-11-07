@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('node_modules/express');
 const serveStatic = require('serve-static');
 const compression = require('compression');
 const port = process.env.PORT || 5000;
