@@ -29,5 +29,5 @@ app.listen(port, () => {
 });
 
 app.get('*', (request, response) => {
-	response.sendFile(path.join(__dirname, 'dist/public', 'index.html'));
+	response.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
