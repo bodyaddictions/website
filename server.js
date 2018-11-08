@@ -28,3 +28,6 @@ app.listen(port, () => {
   console.log('Server running...');
 });
 
+app.get('*', (request, response) => {
+	response.sendFile(path.join(__dirname, 'dist/public', 'index.html'));
+});
