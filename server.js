@@ -22,13 +22,13 @@ app.all('*', ensureDomain);
 app.use(compression());
 
 // default to .html (you can omit the extension in the URL)
-app.use(serveStatic(`$/dist`, {'extensions': ['html']}));
+app.use(serveStatic(`$dist`, {'extensions': ['html']}));
 
 app.listen(port, () => {
   console.log('Server running...');
 });
 
-app.use(express.static('/dist'));
+app.use(express.static('dist'));
 app.get('*', (request, response) => {
 response.sendFile(path.join(__dirname, '/dist', 'index.html'));
 });
